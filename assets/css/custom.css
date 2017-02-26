@@ -1,0 +1,137 @@
+/* 
+    Created on : Apr 20, 2016, 12:46:26 PM
+    Author     : Ardi
+*/
+
+.select2-container--default .select2-selection--single {
+    height: 34px;
+    border-radius: 4px;
+}
+
+.select2-dropdown,
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border-color: #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding: 3px 12px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 34px;
+}
+
+.required {
+    font-weight: bold;
+    color: red;
+}
+
+
+.angucomplete-holder {
+    position: relative;
+}
+
+.angucomplete-dropdown {
+    border-color: #ececec;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    padding: 6px;
+    cursor: pointer;
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 400px;
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+.angucomplete-searching {
+    color: #acacac;
+    font-size: 14px;
+}
+
+.angucomplete-description {
+    font-size: 14px;
+}
+
+.angucomplete-row {
+    padding: 5px;
+    color: #000000;
+    margin-bottom: 4px;
+    clear: both;
+}
+
+.angucomplete-selected-row {
+    background-color: #27c24c;
+    color: #ffffff;
+}
+
+.angucomplete-image-holder {
+    padding-top: 2px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.angucomplete-image {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    border-color: #ececec;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.angucomplete-image-default {
+    /* Add your own default image here
+     background-image: url('/assets/default.png');
+    */
+    background-position: center;
+    background-size: contain;
+    height: 34px;
+    width: 34px;
+}
+
+.no-padder > h3 {
+    padding-left: 15px;
+}
+
+.row-10 {
+    width: 10% !important;
+}
+
+
+
+.label-right {
+    text-align: right !important;
+}
+
+.no-overflow {
+    overflow: hidden !important;
+}
+
+.select2-width-lg {
+    width: 300px !important;
+}
+
+.error {
+    color : #ff1100;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.bg-soft {
+    opacity: 0.7 !important;
+}
+
+.padding-top-lg{
+    padding-top: 2em;
+}

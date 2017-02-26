@@ -1,0 +1,95 @@
+/*#input_search_all {
+    border-radius: 0px;
+    color: black;
+}
+#input_search_all:hover {
+    background: whitesmoke;
+}
+#input_search_all:active {
+    box-shadow: 0 0 30px whitesmoke
+}
+#input_search_all:focus {
+    box-shadow: 0 0 30px whitesmoke
+}
+*/.ui-tooltip {
+    background: white;
+    /*color: #96f226;*/
+    margin-left: 50px;
+    
+}
+.ui-autocomplete {
+    border: 1px solid #3c8dbc;
+    background: white;
+    border-radius: 0px;
+    width: 100px;
+}
+/*.ui-autocomplete.source:hover {
+}*/
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+  }
+.ui-menu .ui-menu-item{
+    font-size:13px;
+    font-family: sans-serif;
+    background-color: white;
+}
+/*
+.ui-menu .ui-menu-item a{
+    font-size:13px;
+    font-family: sans-serif;
+    border: none;
+}*/
+
+.ui-menu .ui-menu-item a:hover{
+}
+
+.ui-menu .ui-menu-item:hover{
+    background-color: #3c8dbc;
+    color: white;
+}
+.ui-menu .ui-menu-item:active{
+    background-color: activeborder;
+    color: white;
+}
+.ui-menu .ui-menu-item:enabled :focus{
+    background-color: activeborder;
+    color: white;
+}
+
+
+#project-label {
+    display: block;
+    font-weight: bold;
+    background-color: none;
+}
+#project-description {
+    margin: 0;
+    padding: 0;
+}
+li.pilihan{
+    display: block;
+    margin-left: -40px;
+    border-bottom: 1px solid darkgrey;
+}
+li.pilihan:hover{
+    font-weight: bold;
+}
+li.pilihan a:hover{
+    font-weight: bold;
+}
+li.pilihan:active{
+    background-color: #3c8dbc;
+    font-weight: bold;
+}
+li.pilihan:focus{
+    background-color: #3c8dbc;
+    font-weight: bold;
+}
+
+
+  .ui-autocomplete-loading {
+    background: white url("images/ui-anim_basic_16x16.gif") right center no-repeat;
+  }
